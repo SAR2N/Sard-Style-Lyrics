@@ -155,4 +155,8 @@ Please avoid uploading credentials, private logs, cached lyrics, or third-party 
 
 ## License
 
-A license has not yet been added to this repository.
+Licensed under the [MIT License](LICENSE).
+
+Copyright (c) 2026 Sard Style Lyrics contributors.
+
+Third-party dependencies retain their respective licenses.
