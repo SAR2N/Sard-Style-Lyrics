@@ -3,6 +3,7 @@ name = "kinetic-live"
 version = "0.2.2"
 description = "Live system-audio kinetic typography"
 edition = "2021"
+license = "PolyForm-Noncommercial-1.0.0"
 
 [build-dependencies]
 tauri-build = { version = "2", features = [] }
