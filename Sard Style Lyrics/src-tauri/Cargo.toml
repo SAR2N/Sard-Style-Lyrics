@@ -1,0 +1,24 @@
+[package]
+name = "kinetic-live"
+version = "0.2.2"
+description = "Live system-audio kinetic typography"
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls"] }
+
+[target.'cfg(windows)'.dependencies]
+cpal = "=0.16.0"
+windows = { version = "0.61", features = ["Media_Control", "Foundation", "Win32_System_WinRT"] }
+
+[profile.dev]
+debug = 0
+
+[profile.release]
+strip = true

@@ -1,0 +1,10 @@
+{
+  "identifier": "main-capability",
+  "description": "Local main-window capabilities",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "core:window:allow-set-fullscreen",
+    "core:window:allow-is-fullscreen"
+  ]
+}
